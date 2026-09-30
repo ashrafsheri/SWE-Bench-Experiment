@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jiang-local-swe-agent"
+version = "0.1.0"
+description = "A local Ollama agent and reproducible SWE-bench Verified runner"
+requires-python = ">=3.10"
+dependencies = [
+  "datasets>=2.18,<4",
+  "requests>=2.31,<3",
+]
+
+[project.scripts]
+jiang-benchmark = "jiang.benchmark:main"
+
+[tool.setuptools.packages.find]
+include = ["jiang*"]
+
+[project.optional-dependencies]
+evaluation = ["swebench==5.0.2"]
+claude-agent = ["mcp>=1.12,<2"]

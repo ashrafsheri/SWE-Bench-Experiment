@@ -1,0 +1,22 @@
+# Ordered by the user's historical 9B solve-rate shortlist.
+# The percentages guide scheduling only; they are not measured by Jiang.
+# 97% django__django-13658
+django__django-13658
+# 96% django__django-14373
+django__django-14373
+# 96% scikit-learn__scikit-learn-10844
+scikit-learn__scikit-learn-10844
+# 96% django__django-12155
+django__django-12155
+# 95% pylint-dev__pylint-6903
+pylint-dev__pylint-6903
+# 95% django__django-11066
+django__django-11066
+# 95% scikit-learn__scikit-learn-14496
+scikit-learn__scikit-learn-14496
+# 95% django__django-11099
+django__django-11099
+# 95% pydata__xarray-4629
+pydata__xarray-4629
+# 95% django__django-16527
+django__django-16527
